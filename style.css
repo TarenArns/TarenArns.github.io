@@ -1,0 +1,13 @@
+.Box{
+    background-color: blueviolet;
+    color: cornsilk;
+    border: 2px black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#secret{
+    float: left;
+    color: red;
+    padding-top: 1000px;
+}
