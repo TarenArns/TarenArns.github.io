@@ -15,6 +15,9 @@
         <h3>The testing is going crazy</h3>
     </div>
 
+    <div id = "virus">
+
+    </div>
     <div id = "secret">
         <h1>PSSST</h1>
         <button onclick=myAlert()>
@@ -22,11 +25,19 @@
         </button>
     </div>
     <script>
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
         function myAlert()
         {
             alert("OMG ITS A VIRUS")
             alert("JK lol")
             alert("you still cute")
+            let text = "THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL THE VIRUS WAS REAL"
+            document.getElementById("virus").innerHTML = text
+            window.scrollTo(50,1500)
+            sleep(1500).then(() => {close();});
+
         }
     </script>
 

@@ -9,5 +9,11 @@
 #secret{
     float: left;
     color: red;
+}
+
+#virus{
     padding-top: 1000px;
+    font-size: 100px;
+    color: red;
+    font-style: italic;
 }
